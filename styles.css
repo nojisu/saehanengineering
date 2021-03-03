@@ -1,0 +1,250 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/font-nanumsquare/1.0.0/nanumsquare.css");
+
+/***********초기화값**********/
+body, h1, h2, h3,h4, p, ul, dl, dd{
+  margin: 0;
+  padding: 0;
+}
+ul li{ list-style: none; }
+a{ text-decoration: none;}
+hr {display: none;}
+.hidden{ position: absolute; left: -9999px;}
+address { font-style:normal; }
+small { font-size: 1em;}
+img {border: 0;}
+html,body{
+  font-family: 'NanumSquare', sans-serif !important;
+  min-width: 1200px;
+  width:100%;
+  background-color:rgb(233, 227, 227);
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display:block; }
+table{
+  border-collapse: collapse;
+}
+.horizon{
+	opacity : 0;
+}
+/*******top*******/
+.top{
+  width: auto;
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 1050px;
+  background: url(1.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+.top .top_content{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 220px;
+  position: absolute;
+}
+.top h1{
+  font-size: 130px;
+  color: #fff;
+  padding-top:100px;
+  padding-left:100px;
+}
+.top h2{
+  font-size: 70px;
+  color: white;
+}
+/******servieinfo********/
+.serviceinfo{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 120px;
+  position: relative;
+}
+.serviceinfo .serviceinfo_content{
+  margin: 0px auto;
+  text-align: center;
+  padding-left: 100px;
+}
+.serviceinfo h1{
+  font-size : 50px;
+  color: white;
+}
+.serviceinfo p{
+  text-align: center;
+  padding-top: 50px;
+  line-height: 170%;
+  font-size: 20px;
+  color:white;
+}
+.serviceinfo span{
+  background-color: #c3e0fa;
+  color:#444343;
+  font-weight: bold;
+}
+/******target********/
+.field{
+  background-color:#585858;
+  margin-top: -5px;
+  width:auto;
+  position: relative;
+}
+
+.field .field_content{
+  margin:0px auto;
+  padding-bottom: 80px;
+}
+.field h1{
+  font-size : 50px;
+  color:#fff;
+  text-align:center;
+  padding-top: 70px;
+  padding-bottom:30px;
+}
+.field h3{
+  font-size : 20px;
+  color:#444343;
+  padding-top: 40px;
+  margin-left: 200px;
+
+}
+.field p{
+  font-size : 20px;
+  padding-top: 50px;
+  line-height: 150%;
+  margin-left:200px;
+  text-align: center;
+  
+}
+.field span{
+  font-weight: bold;
+  font-size:20px;
+}
+
+.field .head{
+  border-radius: 25px;
+  background-color:#0D82EB;
+  width:300px;
+  padding:7px;
+  margin: 0px auto;
+  font-size: 20px;
+  font-weight:bold;
+  color:white;
+  text-align:center;
+  margin-top: 80px;
+}
+.field img{
+  width:100%; 
+  height:100%;
+  padding-bottom: 23px;
+
+}
+/********serviceimg********/
+.fieldimg{
+  width:25%;
+  height:25%;
+  display:inline-block;
+  
+}
+.fieldimg h4{
+  font-size:30px;
+  color:#fff;
+  text-align: center;
+  padding-top: 25px;
+  text-decoration: none;
+  border-top:4px solid #fff; 
+  padding-top : 23px;
+  padding-bottom : 8rem;
+}
+.fieldimg > p{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+  color:white;
+}
+
+/*********place**********/
+.place{
+  margin-bottom:100px;
+  text-align: center;
+}
+.place img{
+  border-radius: 20px;
+  width:100%;
+}
+.place .place_content{
+  width: 500px;
+  height:auto;
+  margin-top:80px;
+  display:inline-block;
+}
+.place h1{
+  font-size : 50px;
+  color:#585858;
+  text-align:center;
+  padding-top: 70px;
+  padding-bottom:30px;
+
+}
+.place h4{
+  color:#585858;
+  width:193px;
+  font-size:28px;
+  text-align: center;
+  text-decoration: none;
+  border-bottom:4px solid #585858; 
+  padding-bottom: 5px;
+
+}
+.place p{
+  padding-top: 20px;
+  line-height: 170%;
+  font-size: 20px;
+  color:rgb(61, 61, 61);
+  font-weight: bold;
+}
+#consulting{
+  width: 500px;
+  display:inline-block;
+  margin-top:80px;
+  vertical-align:top;
+}
+#consulting > p{
+  font-size: 20px;
+  text-align: left;
+  color:rgb(61, 61, 61);
+}
+/*********footer*********/
+
+#footer{
+	width: 100%;
+  height:auto;
+  margin: 0 auto;
+	text-align: center;
+	font-size: 10px;
+	padding: 10px 0;
+	position:relative;
+}
+#footer .totop{
+	display: block;
+	position: absolute;
+	top: 0; right: 0;
+	width: 80px; height: 80px;
+	background: url(../images/totop.png) no-repeat center center;
+	text-indent: -9999px;
+}
+#footer p{
+	line-height : 23px;
+    font-size:13px;
+}
+#footer p b{
+	padding-top: 20px;
+	display: block;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+
+@media all and (max-width:1200px){
+	.benefit ul{
+  padding : 0 ;
+}
+}
